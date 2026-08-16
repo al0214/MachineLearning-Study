@@ -1,0 +1,20 @@
+[project]
+name = "hands-on-machine-learning"
+version = "0.1.0"
+description = "prectice Env"
+authors = [
+    {name = "al0214",email = "sisang951@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=3.0.5,<4.0.0)",
+    "numpy (>=2.5.2,<3.0.0)",
+    "matplotlib (>=3.11.1,<4.0.0)",
+    "scikit-learn (>=1.9.0,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
