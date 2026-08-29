@@ -7,7 +7,9 @@
 *.csv
 **/Data/*
 **/datasets/*
-
+/LactureData
+/Language
+.gitignore
 Makefile.in
 /ar-lib
 /mdate-sh
@@ -16,7 +18,7 @@ Makefile.in
 /ylwrap
 .deps/
 .dirstamp
-
+.idea
 # http://www.gnu.org/software/autoconf
 
 autom4te.cache
