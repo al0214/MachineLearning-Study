@@ -938,6 +938,17 @@ files = [
 ]
 
 [[package]]
+name = "wget"
+version = "3.2"
+description = "pure python download utility"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "wget-3.2.zip", hash = "sha256:35e630eca2aa50ce998b9b1a127bb26b30dfee573702782aa982f875e3f16061"},
+]
+
+[[package]]
 name = "xgboost"
 version = "3.4.1"
 description = "XGBoost Python Package"
@@ -969,4 +980,4 @@ scikit-learn = ["scikit-learn"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "55791cdbce13ea48a1f408826b61f06936504d47e063fe92b2629406f643c276"
+content-hash = "aa83cdb602ecbf6b455788f113881946a12531459cc685d28dbdfc60f122553d"
