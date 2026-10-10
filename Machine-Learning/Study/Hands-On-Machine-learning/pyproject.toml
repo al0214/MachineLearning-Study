@@ -20,6 +20,8 @@ dependencies = [
     "xgboost",
     "lightgbm",
     "torchinfo>=1.8.0",
+    "pydot>=4.0.1",
+    "graphviz>=0.21",
 ]
 
 [project.scripts]
